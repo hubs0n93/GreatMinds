@@ -1,4 +1,6 @@
 body {
+  position: relative;
+  padding: 0;
   font-family: "Montserrat";
   text-align: center;
 }
@@ -7,8 +9,24 @@ h1 {
   color: #6A759B;
 }
 
+h5 {
+  color: #22313F;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+li {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
 .navbar-brand {
-  margin: 0 10% 0 3%;
+  padding: 0 10% 0 3%;
 }
 
 #aboutus {
@@ -20,12 +38,76 @@ h1 {
   background-color: #1F4287;
 }
 
+.p-size-why {
+  font-size: 0.9rem;
+}
+
+.features-icons:hover {
+  color: #22313F;
+}
+
 .why-white {
   color:  #EDEDED;
   padding: 2% 0 7%;
 }
 
-.why-title {
+.white-title {
   color:  #EDEDED;
-  padding: 5% 0 2%;
+  padding: 5% 0 4%;
+}
+
+.margin-right {
+  margin-right: 0;
+}
+
+.row {
+  margin-right: 0;
+}
+
+#teaching {
+  background-color: #EDEDED;
+  padding: 7%  12% 3%;
+}
+
+#carouselTeaching {
+  padding: 2% 0;
+}
+
+.carousel-inner {
+  padding: 0;
+}
+
+.carousel-item {
+  padding: 1% 15%;
+}
+
+.img-carousel {
+  width: 30%;
+  border-radius: 100%;
+  margin: 3% 0;
+}
+
+#prices {
+  background-color: #1F4287;
+  padding: 4%  12% 3%;
+}
+
+#contact {
+  padding: 4%  12% 3%;
+}
+
+#footer {
+  background-color: #6A759B;
+}
+
+#footer p{
+  display: inline;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+#footer a {
+  display: inline;
+  padding-left: 3%;
+  color: #000;
 }
