@@ -26,13 +26,22 @@ li {
 }
 
 .navbar-brand {
-  padding: 0 10% 0 3%;
+  padding: 0 3% 0 3%;
+}
+
+.fb {
+  padding-right: 1%;
 }
 
 #aboutus {
   background-color: #EDEDED;
   padding: 10%  12% 3%;
 }
+
+#aboutus p {
+    text-align: justify;
+}
+
 
 #why {
   background-color: #1F4287;
@@ -94,6 +103,15 @@ li {
 
 #contact {
   padding: 4%  12% 3%;
+}
+
+#contact h1 {
+  padding-bottom: 5%;
+}
+
+.mapouter {
+  height: 100%;
+  width: 100%;
 }
 
 #footer {
